@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Listychyba</string>
+    <string-array name="jezyki">
+        <item>php</item>
+        <item>Java</item>
+        <item>c++</item>
+        <item>c#</item>
+        <item>python</item>
+    </string-array>
+</resources>
