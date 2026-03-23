@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
        listView = findViewById(R.id.ListViewJezyki);
        listView.setAdapter(arrayAdapter);
 
-       listView.setOnItemClickListener(
+       listView.setOnItemClickListener( // na 4
                new AdapterView.OnItemClickListener() {
                    @Override
                    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
        editText = findViewById(R.id.editTextText);
        button = findViewById(R.id.button);
 
-       button.setOnClickListener(
+       button.setOnClickListener( // na 5
                new View.OnClickListener() {
                    @Override
                    public void onClick(View view) {
@@ -64,8 +64,8 @@ public class MainActivity extends AppCompatActivity {
                    }
                }
        );
-       //liczba liczb albo stringow
-        //jezeli lista intow (wylosowac liste)
+       //lista liczb albo stringow
+        // jezeli lista intow (wylosowac liste)
 
     }
 }
